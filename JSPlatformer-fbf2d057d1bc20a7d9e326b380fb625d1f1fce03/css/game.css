@@ -1,0 +1,47 @@
+
+.background    { background: url(https://supergents.files.wordpress.com/2017/10/bgx2.png);
+				background-repeat: no-repeat;
+				background-size: 100%;
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background:  #993300; }
+.wall          { background: #ffff99;   }
+.newWall       {background: #ccff33 ; }
+
+.lost .background {
+  background: #cc0000;
+}
+.won .background {
+  background: #000033;
+}
+.invic .background {
+  background:  #0033cc;
+}
+
+.actor  { position: absolute;  }
+
+.coin   { background:  url(https://supergents.files.wordpress.com/2017/11/ruby-gemstone-vector-clipart.png);
+ 		  background-repeat: no-repeat;
+		  background-size: 200%; }
+
+.player { background: url(https://supergents.files.wordpress.com/2017/10/wizard-147663_960_720.png);
+		  background-repeat: no-repeat;
+		  background-size: 100%; }
+		  
+.bat    { background:url(https://supergents.files.wordpress.com/2017/11/10793-illustration-of-a-flying-bat-pv.png) ;
+		  background-repeat: no-repeat;
+		  background-size: 100%; }
+		  
+.portal { background: #00ff99 ; }
+
+.invincable { background: url(https://supergents.files.wordpress.com/2017/11/magic-eye-1439057620knp.jpg) ;
+		      background-repeat: no-repeat;
+		      background-size: 120%;  }
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
